@@ -48,7 +48,7 @@ const editTodo =() =>{
                 }}
                 disabled={todo.completed}
             >
-                {istodoeditable ? "📁" : "✏️"}
+                {istodoeditable ? "✅" : "✏️"}
             </button>
             {/* Delete Todo Button */}
             <button
